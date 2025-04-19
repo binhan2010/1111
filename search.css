@@ -1,0 +1,81 @@
+main {
+    min-height: 100vh;
+}
+body {
+    background-color: #ffc0cb; /* Phông nền màu hồng */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: repeating-linear-gradient(45deg, 
+    transparent, transparent 10px, rgba(255, 204,
+    221, 0.5)
+    10px, rgba(255, 204, 221, 0.5) 20px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 144px 32px 0 32px;
+}
+
+form h1 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 24px;
+    font-weight: 500;
+    
+}
+
+form>div {
+    width: 100%;
+    max-width: 576px;
+    position: relative;
+}
+
+form button {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+}
+
+form input {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 12px 12px 12px 56px;
+    font-size: 24px;
+    line-height: 32px;
+    background:  #ff69b4;
+    border-radius: 6px;
+}
+
+form input::placeholder {
+    color: #ffffff;
+}
+
+#doan-grid {
+    margin: 96px 80px 96px 80px;
+}
+
+#doan-grid>h1 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 32px;
+    font-weight: 500;
+}
+
+#doan-grid>div {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
