@@ -1,6 +1,6 @@
-if(localStorage.getItem("currentUser")){
-    location.href = "./index.html";
-}
+// if(localStorage.getItem("currentUser")){
+//     location.href = "./index.html";
+// }
 let form = document.querySelector("form");
 form.addEventListener("submit",(e) => {
     e.preventDefault();
@@ -14,6 +14,7 @@ form.addEventListener("submit",(e) => {
     let lowerCaseLetter = /[a-z]/g;
     let upperCaseLetter = /[A-Z]/g;
     let numbers = /[0-9]/g;
+    let email1 = /@/g; 
 
     if(username.length < 6){
         alert("Username must be at least 6 characters");
@@ -24,7 +25,9 @@ form.addEventListener("submit",(e) => {
     } else if(!password.match(upperCaseLetter)){
         alert("Password must be contain a upperCase letter")
     } else if(!password.match(numbers)){
-        alert("Password must contain a number or special character")
+        alert("Mật khẩu đảm bảo có số và kí tự đặc biệt")
+    }else if(!email.match(email)){
+        alert("Email sai cú pháp")
     } else {
         if(localStorage.getItem("users")) {
             let users = JSON.parse(localStorage.getItem("users"));
@@ -47,7 +50,7 @@ form.addEventListener("submit",(e) => {
             ])
             );
         }
-        alert("User created successfully, please login");
+        alert("Đăng ký thành công!!!");
         location.href = "./login.html";
     }
 });
