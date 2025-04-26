@@ -18,22 +18,30 @@
             <b><a class="home" href="#giohang"><i class="bi bi-cart4"></i></a></b>
         </div>
     </div>
-        <div class="donhang" >
-            <p >Tóm tắt đơn hàng</p>
-        </div>
-        <div class="tinhtien">
-            <div class="tt">
-                <p class="thongtin">Thông tin thanh toán</p>
-                <select>
-                    <option>Tiền mặt</option>
-                    <option>Thẻ</option>
-                </select>
-                <p class="tongcong">Tổng cộng</p>
-                <input type="text">
-                <button >Đặt đơn</button>
-            </div>
-        </div>
+    <div id="thongtin">
+        <h2>Thông Tin Thanh Toán</h2>
+            <form id="checkout-form">
+                <p for="name">Họ và tên:</p>
+                <input type="text" id="name" required>
 
+                <p>Địa chỉ giao hàng:</p>
+                <input id="address" rows="3" required></input>
+
+                <p>Số điện thoại:</p>
+                <input type="tel" id="phone" required>
+            </form>
+    </div>
+    <div class="donhang" >
+        <p >Tóm tắt đơn hàng</p>
+    </div>
+    <div class="tinhtien">
+        <div class="tt">
+            <select>
+                <option>Tiền mặt</option>
+                <option>Thẻ</option>
+            </select>
+        </div>
+    </div>
     
 
 </body>
