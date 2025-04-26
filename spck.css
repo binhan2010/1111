@@ -14,7 +14,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #ff6f61;
+    background-color:rgb(248, 156, 171);
     /* Màu hồng cam */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -26,41 +26,6 @@ body {
     padding: 15px 30px;
 }
 
-/* .box a {
-    display: block;
-    padding:10px;
-    text-decoration: none;
-    color:rgb(255, 255, 255);
-    font-size: 30px;
-    border: none;
-    background-color: darksalmon;
-    width: 100%;
-    font-family:'Courier New', Courier, monospace;
-
-
-}
-
-.box i {
-    display: block;
-    padding: 50px;
-    font-size: 30px;
-    color: aliceblue;
-    background-color: darksalmon;
-
-} */
-/* .box b {
-    display: block;
-    padding: 15px;
-
-    color:rgb(255, 255, 255);
-    font-size: 30px;
-    border: none;
-    background-color: darksalmon;
-    width: 100%;
-    font-family:'Courier New', Courier, monospace;
-
-
-} */
 .box a {
     text-decoration: none;
     color: white;
@@ -72,22 +37,8 @@ body {
 }
 
 .box a:hover {
-    background-color: #ff867f;
+    background-color:rgb(248, 175, 187);
 }
-
-/* a {
-    text-decoration: none;
-    color: aliceblue;
-    padding: 15px;
-}
-.box b {
-    display: block;
-    padding: 15px;
-    font-size: 30px;
-    color: aliceblue;
-    background-color: darksalmon;
-
-} */
 
 .box i {
     font-size: 24px;
@@ -128,13 +79,6 @@ body {
     color: #555;
 }
 
-/* .anh {
-    margin:20px auto 10px;
-    width:100%;
-    text-align: center;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px; */
 .Foods h3 {
     padding-left: 20px;
     font-family: 'Arial', sans-serif;
@@ -177,19 +121,20 @@ body {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #ff6f61;
+    background-color:rgb(248, 156, 171);
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .item button:hover {
-    background-color: #ff867f;
+    background-color: rgb(248, 175, 187);
 }
 
 .footer {
-    background-color: #ff6f61; /* Màu nền hồng cam */
+    background-color:rgb(248, 156, 171); /* Màu nền hồng cam */
     color: white;
+    font-size: 20px;
     padding: 40px 20px; /* Thêm khoảng cách trên và dưới */
     text-align: center;
 }
@@ -214,34 +159,9 @@ body {
 }
 
 .footer-1 .lien-he h4, .footer-1 .lien-he-1 h4 {
-    font-size: 16px;
+    font-size: 25px;
     margin: 10px 0;
     color: #ffe4e1; /* Màu trắng nhạt */
-}
-
-.footer-1 .lien-he-1 input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-
-.footer-1 .lien-he-1 button {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    color: white;
-    background-color: #ff867f; /* Màu hồng nhẹ */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.footer-1 .lien-he-1 button:hover {
-    background-color: #ff4b4b; /* Màu đỏ đậm hơn khi hover */
 }
 
 /* Các biểu tượng mạng xã hội */
