@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="tt.css">
+    <link rel="stylesheet" href="./styles/tt.css">
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
     <title>Document</title>
@@ -12,7 +12,7 @@
     <div class="container">
         <div class="box">
             <b><a href="index.html"><i class="bi bi-box-arrow-in-left"></i></a></b>
-            <b><a class="home" href="#home">Trang chủ</a></b>
+            <b><a class="home" href="">Trang chủ</a></b>
             <b><a class="home" href="#drink">Đồ uống</a></b>
             <b><a class="home" href="#lienhe">Liên hệ</a></b>
             <b><a class="home" href="#giohang"><i class="bi bi-cart4"></i></a></b>
@@ -33,16 +33,10 @@
     </div>
     <div class="donhang" >
         <p >Tóm tắt đơn hàng</p>
-    </div>
-    <div class="tinhtien">
-        <div class="tt">
-            <select>
-                <option>Tiền mặt</option>
-                <option>Thẻ</option>
-            </select>
-        </div>
-    </div>
-    
+        <input type="text" id="dish-input" placeholder="Thêm món ăn" ></input><button id="btn">Thêm</button>
+        <ul id="dish-list"></ul>
+        <script src="./js/food.js"></script>
 
+    </div>
 </body>
 </html>
